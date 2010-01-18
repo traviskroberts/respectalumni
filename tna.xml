@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<parks>
+  <park><point lng="-83.419862" lat="33.957779"/>
+    <info>
+      <FullName>Travis Roberts</FullName>
+      <address>Athens, GA</address>
+      <img>/images/tna_seal_small.gif</img>
+    </info>
+  </park>
+  <park><point lng="-83.377530" lat="33.963997"/>
+    <info>
+      <FullName>Josh Reeves</FullName>
+      <address>Athens, GA</address>
+      <img>/images/tna_seal_small.gif</img>
+    </info>
+  </park>
+  <park><point lng="-84.343125" lat="33.895702"/>
+    <info>
+      <FullName>Robb Huffman</FullName>
+      <address>Atlanta, GA</address>
+      <img>/images/huffman.jpg</img>
+    </info>
+  </park>
+  
+  <park><point lng="-83.377977" lat="33.912266"/>
+    <info>
+      <FullName>Jeremy Oxford</FullName>
+      <address>Athens, GA</address>
+      <img>/images/tna_seal_small.gif</img>
+    </info>
+  </park>
+  <park><point lng="-83.399475" lat="33.913031"/>
+    <info>
+      <FullName>Trey Wood</FullName>
+      <address>Athens, GA</address>
+      <img>/images/tna_seal_small.gif</img>
+    </info>
+  </park>
+  <park><point lng="-84.462302" lat="33.151483"/>
+    <info>
+      <FullName>John Boren</FullName>
+      <address>Concord, GA</address>
+      <img>/images/tna_seal_small.gif</img>
+    </info>
+  </park>
+</parks>

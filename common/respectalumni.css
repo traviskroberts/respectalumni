@@ -1,0 +1,142 @@
+html {
+	height: 101%;
+	background-color: #FFFFFF;
+}
+
+body {
+	background-color: #FFFFFF;
+	font-size: 100%;
+	margin: 0px;
+}
+
+h1, h2, h3, h4, p, li, a {
+	font-family: "Trebuchet MS", "Trebuchet", Georgia, Verdana, sans-serif;
+}
+
+h1 {
+	font-size: 1.4em;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+}
+h2 {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #283943;
+	padding: 0px;
+	margin: 0px;
+}
+p, td, li {
+	font-size: 0.8em;
+}
+
+
+#wrapper {
+	width: 740px;
+	margin: 0px auto;
+}
+
+#header {
+	width: 740px;
+	height: 129px;
+	background: url(/images/header.jpg) no-repeat 0 0;
+	}
+	#logolink {
+		width: 260px;
+		height: 100px;
+		cursor: pointer;
+	}
+
+#nav {
+	width: 170px;
+	height: 397px;
+	background: url(/images/nav_box.jpg) no-repeat 0 0;
+	color: #000000;
+	margin:0px;
+	padding:0px;
+	float: left;
+	}
+	#nav p {
+		padding: 0px 0px 0px 0px;
+		margin: 15px 0px 0px 15px;
+	}
+	#nav a {
+		color: #4C5E68;
+		text-decoration: none;
+		margin: 0px;
+	}
+	#nav a:hover {
+		color: #000000;
+		text-decoration: none;
+	}
+
+#content {
+	width: 570px;
+	min-height: 400px;
+	background: url(/images/content_bg.jpg) no-repeat 0 0;
+	float: left;
+	}
+	#content .padding {
+		padding: 20px 10px 15px 15px;
+	}
+	*html #content {
+		height: 400px;
+	}
+
+#quoteBox {
+	width: 177px;
+	margin: 35px 0px 15px 10px;
+	float: right;
+	}
+	#boxTop {
+		height: 25px;
+		margin: 0px;
+		padding: 0px;
+		background: url(/images/box_top.gif) no-repeat 0 0;
+	}
+	#boxMid {
+		background: url(/images/box_mid.gif) repeat-y 0 0;
+		padding: 0px 8px 0px 15px;
+		margin: 0px;
+	}
+	#boxMid p {
+		margin: 0px;
+		padding: 0px;
+	}
+	#boxBottom{
+		height: 25px;
+		margin: 0px;
+		padding: 0px;
+		background: url(/images/box_bottom.gif) no-repeat 0 0;
+	}
+
+#map p {
+	padding: 0px 3px;
+}
+	
+#footer {
+	width: 740px;
+	border-top: 15px solid #839DAC;
+	padding-bottom: 15px;
+	}
+	#footer a {
+		color: #000000;
+		text-decoration: none;
+	}
+	#footer a:hover {
+		color: #000000;
+		text-decoration: underline;
+	}
+	#footer p {
+		padding: 5px 0px 0px 0px;
+		margin: 0px;
+	}
+	
+table.infoBubble {
+	margin: 0px 5px 0px 0px;
+	border: 1px solid red;
+	}
+	table.infoBubble p {
+		padding: 0px;
+	}
+

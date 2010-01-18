@@ -1,0 +1,12 @@
+
+RewriteEngine on
+AddHandler fastcgi-script .fcgi
+AddHandler cgi-script .cgi
+RewriteCond %{HTTP_HOST} ^travisroberts.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www.travisroberts.net$
+RewriteRule ^(.*)$ http://www.travisonrails.com [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^travisroberts.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www.travisroberts.org$
+RewriteRule ^(.*)$ http://www.travisonrails.com [R=301,L]
+
